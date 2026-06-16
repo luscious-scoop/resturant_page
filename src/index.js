@@ -6,4 +6,4 @@ function screenHandler() {
 	homeScreenController();
 }
 
-screenHandler();
+/* screenHandler(); */
