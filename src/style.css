@@ -8,6 +8,7 @@
 /* 2. Remove default margin */
 *:not(dialog) {
 	margin: 0;
+	padding: 0;
 }
 
 /* 3. Enable keyword animations */
@@ -19,8 +20,10 @@
 
 body {
 	/* 4. Increase line-height */
-	line-height: 1.5;
+	line-height: 1.2;
+
 	/* 5. Improve text rendering */
+
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -77,8 +80,8 @@ button {
 	cursor: pointer;
 }
 header {
-	background-color: yellow;
-	border: 2px solid red;
+	background-color: cornflowerblue;
+	/* border: 2px solid red; */
 	display: flex;
 	height: 100px;
 	align-items: center;
@@ -97,4 +100,45 @@ header nav {
 }
 nav button {
 	padding: 16px 22px;
+}
+
+#content {
+	background-image: url("../assets/images/edward-howell-vvUy1hWVYEA-unsplash.jpg");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* border: 2px solid yellow; */
+	height: calc(100vh - 100px);
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+.home {
+	/* border: 2px solid red; */
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.253);
+	padding: 1rem 2rem;
+	backdrop-filter: blur(5px);
+}
+.home p {
+	width: 40ch;
+	font-size: 2.5rem;
+	color: white;
+}
+.reservation {
+	align-self: flex-start;
+}
+.reservation button {
+	background-color: brown;
+	color: white;
+	border: none;
+	border-radius: 12px;
+
+	padding: 20px 120px;
 }
