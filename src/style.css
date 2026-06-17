@@ -19,6 +19,11 @@
 }
 
 body {
+	background-image: url("../assets/images/main-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 	/* 4. Increase line-height */
 	line-height: 1.2;
 
@@ -103,13 +108,10 @@ nav button {
 }
 
 #content {
-	background-image: url("../assets/images/edward-howell-vvUy1hWVYEA-unsplash.jpg");
-
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	/* border: 2px solid yellow; */
-	height: calc(100vh - 100px);
+	margin-top: 100px;
+	height: 100%;
+	width: 100%;
 	display: flex;
 
 	justify-content: center;
@@ -141,4 +143,73 @@ nav button {
 	border-radius: 12px;
 
 	padding: 20px 120px;
+}
+
+.card {
+	min-height: 350px;
+
+	background-color: rgba(0, 0, 0, 0.267);
+
+	/* border: 2px solid yellow; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 12px;
+	box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.39);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.card .item-name {
+	padding: 10px 12px;
+	background-color: #4f3130;
+	font-size: 1.2rem;
+	color: white;
+	font-weight: bold;
+}
+.card .item-description {
+	padding: 10px;
+	background-color: #aa5042;
+	font-size: 1.2rem;
+
+	color: #d8d78f;
+}
+.card .item-price {
+	padding: 8px;
+	background-color: #d8bd8a;
+	color: #4f3130;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.card-container {
+	padding: 0px 20px;
+	width: 60%;
+	height: auto;
+
+	gap: 15px;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(250px, 1fr));
+
+	/* border: 2px solid red; */
+}
+
+.card img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	/* 	border: 5px double #330f0a */
+}
+
+.item-name,
+.item-price,
+.item-description {
+	border-radius: 12px;
+	transition: all 0.3s ease;
+}
+.item-name:hover,
+.item-price:hover,
+.item-description:hover {
+	transform: scale(1.1);
 }
