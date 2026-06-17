@@ -142,3 +142,64 @@ nav button {
 
 	padding: 20px 120px;
 }
+
+.card {
+	background-color: rgba(0, 0, 0, 0.267);
+	height: 350px;
+	/* border: 2px solid yellow; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 12px 20px;
+	box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.39);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.card .item-name {
+	padding: 10px 12px;
+	background-color: #4f3130;
+	font-size: 1.6rem;
+	color: white;
+	font-weight: bold;
+}
+.card .item-description {
+	padding: 10px;
+	background-color: #aa5042;
+	font-size: 1.3rem;
+	width: fit-content;
+	color: #d8d78f;
+}
+.card .item-price {
+	padding: 8px;
+	background-color: #d8bd8a;
+	color: #4f3130;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.card-container {
+	gap: 15px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	/* border: 2px solid red; */
+}
+
+.card img {
+	border-radius: 50%;
+	/* 	border: 5px double #330f0a */
+}
+
+.item-name,
+.item-price,
+.item-description {
+	border-radius: 12px;
+	transition: all 0.3s ease;
+}
+.item-name:hover,
+.item-price:hover,
+.item-description:hover,
+.card:hover {
+	transform: scale(1.1);
+}
