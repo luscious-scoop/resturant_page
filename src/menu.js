@@ -1,3 +1,9 @@
+import dragonRoll from "../assets/images/dragon-roll.jpg";
+import salmonRoll from "../assets/images/salmon.jpg";
+import nigiri from "../assets/images/nigiri.jpg";
+import spicyTuna from "../assets/images/spicy-tuna.jpg";
+import tea from "../assets/images/tea.jpg";
+import water from "../assets/images/water.jpg";
 export function menuScreenController() {
 	const contentDiv = document.querySelector("#content");
 	contentDiv.textContent = "";
@@ -6,7 +12,7 @@ export function menuScreenController() {
 	cardContainer.textContent = "";
 	const menu = [
 		{
-			pic: "../assets/images/dragon-roll.jpg",
+			pic: `${dragonRoll}`,
 			name: "Dragon Roll",
 			description: `	Spicy Tuna and sweetwater Eel with finely cut Avocado
 						slices`,
@@ -14,7 +20,7 @@ export function menuScreenController() {
 		},
 
 		{
-			pic: "../assets/images/salmon.jpg",
+			pic: `${salmonRoll}`,
 			name: "Salmon Roll",
 			description: `Classic fresh salmon draped over lightly seasoned sushi
 						rice.`,
@@ -22,27 +28,27 @@ export function menuScreenController() {
 		},
 
 		{
-			pic: "../assets/images/nigiri.jpg",
+			pic: `${nigiri}`,
 			name: "Nigiri",
 			description: ` Norwegian salmon, tuna, and yellowtail, delivering a perfect melt-in-your-mouth bite.`,
 			price: "20.00$",
 		},
 		{
-			pic: "../assets/images/spicy-tuna.jpg",
+			pic: `${spicyTuna}`,
 			name: "Spicy Tuna ",
 			description: `s Spicy Tuna Roll is a traditional maki Spicy Tuna Roll packed and topped with flavorful, spicy tuna Spicy Tuna`,
 			price: "12.02$",
 		},
 
 		{
-			pic: "../assets/images/tea.jpg",
+			pic: `${tea}`,
 			name: "Green tea ",
 			description: `: Delivers a delicate, earthy taste that can be enjoyed plain or enhanced with natural ingredients like lemon, jasmine, or mint`,
 			price: "6.00$",
 		},
 
 		{
-			pic: "../assets/images/water.jpg",
+			pic: `${water}`,
 			name: "Water bottle ",
 			description: ` Just your regular water bottle nothing special. Funnily enough  you have to pay for it. `,
 			price: "2.00$",
@@ -81,4 +87,5 @@ export function menuScreenController() {
 
 		cardContainer.appendChild(card);
 	}
+	contentDiv.appendChild(cardContainer);
 }
