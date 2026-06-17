@@ -185,7 +185,9 @@ nav button {
 .card-container {
 	padding: 0px 20px;
 	width: 100%;
-	/* place-items: center; */
+	height: auto;
+	place-items: center;
+	place-content: center;
 	gap: 15px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
