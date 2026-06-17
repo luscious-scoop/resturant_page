@@ -36,21 +36,21 @@ export function menuScreenController() {
 		{
 			pic: `${spicyTuna}`,
 			name: "Spicy Tuna ",
-			description: `s Spicy Tuna Roll is a traditional maki Spicy Tuna Roll packed and topped with flavorful, spicy tuna Spicy Tuna`,
+			description: ` A traditional maki Spicy Tuna Roll topped with flavorful, spicy tuna Spicy Tuna`,
 			price: "12.02$",
 		},
 
 		{
 			pic: `${tea}`,
 			name: "Green tea ",
-			description: `: Delivers a delicate, earthy taste that can be enjoyed plain or enhanced with natural ingredients like lemon, jasmine, or mint`,
+			description: ` Delivering a delicate, earthy taste  with natural ingredients like lemon, jasmine, or mint`,
 			price: "6.00$",
 		},
 
 		{
 			pic: `${water}`,
 			name: "Water bottle ",
-			description: ` Just your regular water bottle nothing special. Funnily enough  you have to pay for it. `,
+			description: ` Just your regular water bottle. Funnily enough  you have to pay for it. `,
 			price: "2.00$",
 		},
 	];

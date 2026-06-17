@@ -147,7 +147,7 @@ nav button {
 .card {
 	height: 350px;
 	background-color: rgba(0, 0, 0, 0.267);
-	/* height: 350px; */
+
 	/* border: 2px solid yellow; */
 	display: flex;
 	flex-direction: column;
@@ -169,7 +169,8 @@ nav button {
 .card .item-description {
 	padding: 10px;
 	background-color: #aa5042;
-	font-size: 1rem;
+	font-size: 1.2rem;
+	flex: 1;
 
 	color: #d8d78f;
 }
@@ -178,13 +179,13 @@ nav button {
 	background-color: #d8bd8a;
 	color: #4f3130;
 	font-weight: bold;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 .card-container {
 	padding: 0px 20px;
 	width: 100%;
-	place-items: center;
+	/* place-items: center; */
 	gap: 15px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
