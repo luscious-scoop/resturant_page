@@ -11,3 +11,5 @@ const screenHandler = (function () {
 	homeBtn.addEventListener("click", homeScreenController);
 	menuBtn.addEventListener("click", menuScreenController);
 })();
+
+//screen controllr
