@@ -213,3 +213,29 @@ nav button {
 .item-description:hover {
 	transform: scale(1.1);
 }
+
+.about-container {
+	background-color: #4f3130;
+	border-radius: 8px;
+	box-shadow: 0px 10px 5px hsla(2, 24%, 25%, 0.322);
+}
+.about-container > * {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	gap: 10px;
+	align-items: center;
+}
+
+.child h2 {
+	padding: 8px 12px;
+	font-size: 1.5rem;
+	background-color: #3a5743;
+	color: white;
+}
+
+.child p {
+	font-size: 1.3rem;
+
+	color: #e6ccbe;
+}
