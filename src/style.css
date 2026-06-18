@@ -3,6 +3,7 @@
 	--navbar-title: #ffffff;
 	--nav-btns-bg: brown;
 	--nav-btns-clr: #ffffff;
+	--font-stack-: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -26,6 +27,7 @@
 }
 
 body {
+	font-family: var(--font-stack-);
 	background-image: url("../assets/images/main-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -95,7 +97,6 @@ button {
 	cursor: pointer;
 }
 header {
-	font-size: 1.3rem;
 	background-color: var(--navbar-clr);
 	/* border: 2px solid red; */
 	display: flex;
@@ -106,8 +107,12 @@ header {
 }
 
 .logo {
+	font-family: "tangerine", var(--font-stack-);
 	flex: 1;
 	padding: 0px 15px;
+}
+.logo h1 {
+	font-size: 3rem;
 }
 header nav {
 	padding: 0px 15px;
@@ -165,6 +170,7 @@ nav button:active {
 }
 
 .card {
+	font-family: "Monoton";
 	min-height: 350px;
 
 	background-color: rgba(0, 0, 0, 0.267);
@@ -181,6 +187,7 @@ nav button:active {
 }
 
 .card .item-name {
+	font-family: "Stack Sans Notch";
 	padding: 10px 12px;
 	background-color: #4f3130;
 	font-size: 1.2rem;
@@ -188,6 +195,7 @@ nav button:active {
 	font-weight: bold;
 }
 .card .item-description {
+	font-family: "Aldrich";
 	padding: 10px;
 	background-color: #aa5042;
 	font-size: 1.2rem;
@@ -195,6 +203,8 @@ nav button:active {
 	color: #d8d78f;
 }
 .card .item-price {
+	font-family: "Aldrich";
+
 	padding: 8px;
 	background-color: #d8bd8a;
 	color: #4f3130;
