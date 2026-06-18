@@ -118,15 +118,10 @@ nav button {
 	color: var(--navbar-title);
 	border: none;
 	transition: transform 0.5s ease;
-	transition: border 0.1s ease;
 }
 
 nav button:active {
 	transform: scale(0.8);
-}
-
-nav button:hover {
-	border-bottom: 4px solid #a4a9ad;
 }
 
 #content {
