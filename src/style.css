@@ -1,7 +1,8 @@
 :root {
 	--navbar-clr: #23001e;
 	--navbar-title: #ffffff;
-	--nav-btns-clr: brown;
+	--nav-btns-bg: brown;
+	--nav-btns-clr: #ffffff;
 }
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -114,8 +115,8 @@ header nav {
 nav button {
 	padding: 18px 26px;
 	border-radius: 8px;
-	background-color: var(--nav-btns-clr);
-	color: var(--navbar-title);
+	background-color: var(--nav-btns-bg);
+	color: var(--nav-btns-clr);
 	border: none;
 	transition: transform 0.5s ease;
 }
