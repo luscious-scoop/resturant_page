@@ -245,6 +245,7 @@ nav button:active {
 	background-color: var(--about-bg-clr);
 	border-radius: 8px;
 	box-shadow: 0px 10px 5px hsla(2, 24%, 25%, 0.322);
+	margin-bottom: 40px;
 }
 .about-container > * {
 	display: flex;
