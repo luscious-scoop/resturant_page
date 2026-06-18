@@ -4,6 +4,14 @@
 	--nav-btns-bg: brown;
 	--nav-btns-clr: #ffffff;
 	--font-stack-: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	--about-bg-clr: #4f3130;
+	--about-heading: #3a5743;
+	--about-font-clr: white;
+	--about-para-clr: #e6ccbe;
+	--item-description-bg: #aa5042;
+	--item-price-bg: #d8bd8a;
+	--item-name-font-clr: #4f3130;
+	--item-descriptions-font-clr: #d8d78f;
 }
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -161,7 +169,7 @@ nav button:active {
 	align-self: flex-start;
 }
 .reservation button {
-	background-color: brown;
+	background-color: var(--nav-btns-bg);
 	color: white;
 	border: none;
 	border-radius: 12px;
@@ -170,11 +178,11 @@ nav button:active {
 }
 
 .card {
+	font-size: 1.3rem;
 	min-height: 350px;
 
 	background-color: rgba(0, 0, 0, 0.267);
 
-	/* border: 2px solid yellow; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -187,25 +195,22 @@ nav button:active {
 
 .card .item-name {
 	padding: 10px 12px;
-	background-color: #4f3130;
-	font-size: 1.2rem;
+	background-color: var(--item-name-font-clr);
+
 	color: white;
 	font-weight: bold;
 }
 .card .item-description {
-	font-family: "Aldrich";
 	padding: 10px;
-	background-color: #aa5042;
-	font-size: 1.2rem;
+	background-color: var(--item-description-bg);
 
-	color: #d8d78f;
+	color: var(--item-descriptions-font-clr);
 }
 .card .item-price {
 	padding: 8px;
-	background-color: #d8bd8a;
+	background-color: var(--item-price-bg);
 	color: #4f3130;
 	font-weight: bold;
-	font-size: 1.2rem;
 }
 
 .card-container {
@@ -216,15 +221,12 @@ nav button:active {
 	gap: 15px;
 	display: grid;
 	grid-template-columns: repeat(2, minmax(250px, 1fr));
-
-	/* border: 2px solid red; */
 }
 
 .card img {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
-	/* 	border: 5px double #330f0a */
 }
 
 .item-name,
@@ -240,7 +242,7 @@ nav button:active {
 }
 
 .about-container {
-	background-color: #4f3130;
+	background-color: var(--about-bg-clr);
 	border-radius: 8px;
 	box-shadow: 0px 10px 5px hsla(2, 24%, 25%, 0.322);
 }
@@ -255,14 +257,14 @@ nav button:active {
 .child h2 {
 	padding: 8px 12px;
 	font-size: 1.5rem;
-	background-color: #3a5743;
-	color: white;
+	background-color: var(--about-heading);
+	color: var(--about-font-clr);
 }
 
 .child p {
 	font-size: 1.3rem;
 
-	color: #e6ccbe;
+	color: var(--about-para-clr);
 }
 
 .card .item-name,
