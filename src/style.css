@@ -170,7 +170,6 @@ nav button:active {
 }
 
 .card {
-	font-family: "Monoton";
 	min-height: 350px;
 
 	background-color: rgba(0, 0, 0, 0.267);
@@ -187,7 +186,6 @@ nav button:active {
 }
 
 .card .item-name {
-	font-family: "Stack Sans Notch";
 	padding: 10px 12px;
 	background-color: #4f3130;
 	font-size: 1.2rem;
@@ -203,8 +201,6 @@ nav button:active {
 	color: #d8d78f;
 }
 .card .item-price {
-	font-family: "Aldrich";
-
 	padding: 8px;
 	background-color: #d8bd8a;
 	color: #4f3130;
@@ -267,4 +263,15 @@ nav button:active {
 	font-size: 1.3rem;
 
 	color: #e6ccbe;
+}
+
+.card .item-name,
+.child h2 {
+	font-family: "Stack Sans Notch";
+}
+
+.card .item-description,
+.child p,
+.card .item-price {
+	font-family: "Aldrich";
 }
