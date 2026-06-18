@@ -33,6 +33,9 @@ body {
 	background-attachment: fixed;
 	/* 4. Increase line-height */
 	line-height: 1.2;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
 
 	/* 5. Improve text rendering */
 
@@ -96,7 +99,7 @@ header {
 	background-color: var(--navbar-clr);
 	/* border: 2px solid red; */
 	display: flex;
-	height: 100px;
+	padding: 30px;
 	align-items: center;
 	justify-content: space-around;
 	color: var(--navbar-title);
@@ -126,10 +129,8 @@ nav button:active {
 }
 
 #content {
-	/* border: 2px solid yellow; */
-	margin-top: 100px;
-	height: 100%;
-	width: 100%;
+	flex: 1;
+
 	display: flex;
 
 	justify-content: center;
