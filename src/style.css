@@ -266,12 +266,14 @@ nav button:active {
 }
 
 .card .item-name,
-.child h2 {
+.child h2,
+button {
 	font-family: "Stack Sans Notch";
 }
 
 .card .item-description,
 .child p,
-.card .item-price {
+.card .item-price,
+.home p {
 	font-family: "Aldrich";
 }
