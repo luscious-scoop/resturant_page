@@ -250,6 +250,7 @@ nav button:active {
 }
 
 .about-container {
+	margin-top: 8rem;
 	background-color: var(--about-bg-clr);
 	border-radius: 8px;
 	box-shadow: 0px 10px 5px hsla(2, 24%, 25%, 0.322);
