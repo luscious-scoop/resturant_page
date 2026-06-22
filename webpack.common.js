@@ -9,6 +9,7 @@ export default {
 		filename: "main.js",
 		path: path.resolve(import.meta.dirname, "dist"),
 		clean: true,
+		assetModuleFilename: "images/[hash][ext][query]",
 	},
 
 	plugins: [
