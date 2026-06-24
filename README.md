@@ -20,3 +20,5 @@ For this project I had to learn and utilize javascript module patterns , IIFE(Im
 
 - background image by [
   Edward Howell](https://unsplash.com/photos/cooked-food-on-white-ceramic-plate-vvUy1hWVYEA) on Unsplash.
+
+- Sushi document icon by [nawicon - Flaticon](https://www.flaticon.com/free-icons/sushi)
