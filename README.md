@@ -4,7 +4,7 @@ This is a not a real restaurant site. Sadly!
 
 ## Lesson Learned
 
-For this project I had to learn and utilize javascript module patterns , IIFE(Immediately Invoked Function Expression) and had to learn how to setup up webpack and work with bundlers. The setup process was kind of annoying but I learned of template repositories which make webpack setup easy.
+For this project I had to learn and utilize javascript modules , how to write and divide your code across multiple module files , and had to learn how to setup up webpack and work with bundlers(which was the main point of this project). The setup process was kind of annoying but I learned of template repositories which make webpack setup easy.
 
 ## Built With
 
