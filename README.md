@@ -1,6 +1,6 @@
 # Restaurant Page
 
-This is a not a Real Restaurant site. Sadly!
+This is a not a real restaurant site. Sadly!
 
 ## Lesson Learned
 
